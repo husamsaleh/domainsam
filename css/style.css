@@ -1,0 +1,496 @@
+/* General Styles */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+}
+
+section {
+    padding: 100px 0;
+}
+
+/* Navbar */
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 60px 0;
+    background: #fff;
+}
+
+.hero-section .small {
+    color: #6B7280;
+    margin-bottom: 1rem;
+}
+
+.hero-section h1 {
+    color: #4B5563;
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.hero-section .lead {
+    color: #374151;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.search-box {
+    position: relative;
+    max-width: 500px;
+    margin: 3rem 0;
+}
+
+.search-box input {
+    padding: 15px 120px 15px 20px;
+    font-size: 1.1rem;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+}
+
+.search-box button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    height: calc(100% - 10px);
+    padding: 0 25px;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+}
+
+/* Trust Banner */
+.trust-banner {
+    padding: 50px 0;
+}
+
+.trust-banner h2 {
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    line-height: 1.4;
+}
+
+/* Service Cards */
+.buyer-services {
+    padding: 120px 0;
+}
+
+.service-card {
+    background: #F3F4F6;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: none;
+    text-align: left;
+}
+
+.service-card:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.service-card img {
+    max-width: 180px;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover img {
+    transform: scale(1.05);
+}
+
+.service-card h3 {
+    font-size: 1.3rem;
+    color: #374151;
+}
+
+.service-card p {
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+/* Domain Generator */
+.domain-generator {
+    background-color: #f8f9fa;
+    padding: 120px 0;
+}
+
+.domain-generator h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.domain-generator p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Recent Agreements */
+.recent-agreements {
+    padding: 120px 0;
+}
+
+.recent-agreements h2 {
+    margin-bottom: 3rem;
+}
+
+.table {
+    margin-top: 2rem;
+}
+
+.table th, .table td {
+    padding: 1.2rem;
+}
+
+.table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Newsletter */
+.newsletter {
+    padding: 80px 0;
+}
+
+.newsletter h2 {
+    margin-bottom: 2.5rem;
+}
+
+.newsletter form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.newsletter input {
+    padding: 15px 25px;
+    font-size: 1.1rem;
+}
+
+.newsletter button {
+    padding: 15px 30px;
+}
+
+/* Footer */
+footer {
+    background-color: #1a1a1a;
+    padding: 80px 0 40px;
+}
+
+footer h3 {
+    margin-bottom: 1.5rem;
+}
+
+footer h5 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+footer ul li {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #dc3545;
+}
+
+.social-links {
+    margin-top: 2rem;
+}
+
+.social-links a {
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+    
+    .hero-section {
+        text-align: center;
+        padding: 60px 0;
+    }
+    
+    .search-box {
+        margin: 2rem auto;
+    }
+    
+    .hero-section img {
+        margin-top: 3rem;
+    }
+    
+    .service-card {
+        margin-bottom: 2rem;
+    }
+} 
+
+/* Seller Page Specific Styles */
+.step-card {
+    background: transparent;
+    padding: 1.5rem;
+    box-shadow: none;
+    text-align: left;
+    height: auto;
+}
+
+.step-card:hover {
+    transform: none;
+}
+
+.step-number {
+    color: #DC2626;
+    background: none;
+    width: auto;
+    height: auto;
+    font-size: 1rem;
+    margin: 0 0 1rem 0;
+    justify-content: flex-start;
+}
+
+.step-card h4 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #374151;
+}
+
+.step-card p {
+    font-size: 0.9rem;
+    color: #6B7280;
+    line-height: 1.5;
+}
+
+.pricing-table {
+    border: 1px solid #E5E7EB;
+    box-shadow: none;
+}
+
+.pricing-table th {
+    background: #1F2937;
+    color: white;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+}
+
+.pricing-table td {
+    padding: 1rem 1.5rem;
+    color: #4B5563;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #dc3545;
+    color: white;
+}
+
+.accordion-button:focus {
+    box-shadow: 0 0 0 0.25rem rgba(220, 53, 69, 0.25);
+}
+
+/* Owner Payouts Section */
+.owner-payouts li {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .step-card {
+        margin-bottom: 2rem;
+    }
+    
+    .pricing-table {
+        font-size: 0.9rem;
+    }
+} 
+
+/* Buyer Page Specific Styles */
+.purchase-options .btn {
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    transition: all 0.3s ease;
+}
+
+.purchase-options .btn.active {
+    background: #ffeaec;
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+.step-card .price {
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+}
+
+.faq-card {
+    background: #F3F4F6;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.faq-card h5 {
+    color: #dc3545;
+    margin-bottom: 1rem;
+}
+
+.faq-content p {
+    color: #4B5563;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Responsive Adjustments for Buyer Page */
+@media (max-width: 768px) {
+    .purchase-options {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .purchase-options .btn {
+        width: 100%;
+    }
+    
+    .faq-card {
+        margin-bottom: 2rem;
+    }
+} 
+
+/* Register Page Styles */
+.register-section {
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.register-form-container {
+    max-width: 460px;
+    margin: 0 auto;
+}
+
+.register-form-container h2 {
+    color: #111827;
+    font-size: 1.875rem;
+    font-weight: 600;
+}
+
+.google-signin .btn {
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+    border: 1px solid #E5E7EB;
+    color: #374151;
+}
+
+.google-signin .btn img {
+    width: 20px;
+    height: 20px;
+}
+
+.divider {
+    text-align: center;
+    position: relative;
+    margin: 1.5rem 0;
+}
+
+.divider::before,
+.divider::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 45%;
+    height: 1px;
+    background-color: #E5E7EB;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.divider span {
+    background-color: #fff;
+    padding: 0 1rem;
+    color: #6B7280;
+    font-size: 0.875rem;
+}
+
+.form-label {
+    color: #374151;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    padding: 0.75rem 1rem;
+    border: 1px solid #E5E7EB;
+    border-radius: 0.375rem;
+}
+
+.form-control:focus {
+    border-color: #DC2626;
+    box-shadow: 0 0 0 1px rgba(220, 38, 38, 0.2);
+}
+
+.password-input-group {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.password-toggle img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+}
+
+.btn-secondary {
+    background-color: #9CA3AF;
+    border: none;
+    padding: 0.75rem 1rem;
+    font-weight: 500;
+}
+
+.btn-secondary:hover {
+    background-color: #6B7280;
+}
+
+/* Responsive adjustments */
+@media (max-width: 991px) {
+    .register-illustration {
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+
+    .register-form-container {
+        padding: 0 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .register-section {
+        padding: 40px 0;
+    }
+}
